@@ -1,12 +1,7 @@
-//
-//  ContentView.swift
-//  Gar card app
-//
 //  Created by Гар on 02.11.22.
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
             ZStack {
@@ -48,7 +43,6 @@ struct ContentView: View {
                         .frame(height: 80)
                         .overlay(Text("https://github.com/kgarnikg")
                             .foregroundColor(Color.white))
-
                 }
             }
         }
@@ -59,4 +53,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
